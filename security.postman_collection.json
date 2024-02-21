@@ -1,0 +1,292 @@
+{
+	"info": {
+		"_postman_id": "84b4ad59-a76c-493f-84dc-6b27ae0b45ec",
+		"name": "security",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "31923239"
+	},
+	"item": [
+		{
+			"name": "getAllData",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/securityapp/visitior.php?function=getAllVisitor",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"securityapp",
+						"visitior.php"
+					],
+					"query": [
+						{
+							"key": "function",
+							"value": "getAllVisitor"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "insert",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "security_name",
+							"value": "ahmad",
+							"type": "text"
+						},
+						{
+							"key": "no_plat",
+							"value": "B123KKN",
+							"type": "text"
+						},
+						{
+							"key": "createAt",
+							"value": "12:00",
+							"type": "text"
+						},
+						{
+							"key": "updateAt",
+							"value": "12:00",
+							"type": "text"
+						},
+						{
+							"key": "tujuan",
+							"value": "inspeksi",
+							"type": "text"
+						},
+						{
+							"key": "status_visitor",
+							"value": "pemilik",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/securityapp/visitior.php?function=insertVisitor",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"securityapp",
+						"visitior.php"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "security_name",
+							"value": "ahmad",
+							"disabled": true
+						},
+						{
+							"key": "no_plat",
+							"value": "B123KKN",
+							"disabled": true
+						},
+						{
+							"key": "createAt",
+							"value": "12:00",
+							"disabled": true
+						},
+						{
+							"key": "updateAt",
+							"value": "12:00",
+							"disabled": true
+						},
+						{
+							"key": "tujuan",
+							"value": "Inspeksi",
+							"disabled": true
+						},
+						{
+							"key": "function",
+							"value": "insertVisitor"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "security_name",
+							"value": "ahmad",
+							"type": "text"
+						},
+						{
+							"key": "no_plat",
+							"value": "B123KKN",
+							"type": "text"
+						},
+						{
+							"key": "createAt",
+							"value": "12:00",
+							"type": "text"
+						},
+						{
+							"key": "updateAt",
+							"value": "12:00",
+							"type": "text"
+						},
+						{
+							"key": "tujuan",
+							"value": "inspeksi",
+							"type": "text"
+						},
+						{
+							"key": "status_visitor",
+							"value": "pemilik",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/securityapp/visitior.php?function=insertVisitor",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"securityapp",
+						"visitior.php"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "security_name",
+							"value": "ahmad",
+							"disabled": true
+						},
+						{
+							"key": "no_plat",
+							"value": "B123KKN",
+							"disabled": true
+						},
+						{
+							"key": "createAt",
+							"value": "12:00",
+							"disabled": true
+						},
+						{
+							"key": "updateAt",
+							"value": "12:00",
+							"disabled": true
+						},
+						{
+							"key": "tujuan",
+							"value": "Inspeksi",
+							"disabled": true
+						},
+						{
+							"key": "function",
+							"value": "insertVisitor"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/securityapp/visitior.php?id=0&function=deleteVisitor",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"securityapp",
+						"visitior.php"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "0"
+						},
+						{
+							"key": "function",
+							"value": "deleteVisitor"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getallsecurity",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/securityapp/visitior.php?id=0&function=deleteVisitor",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"securityapp",
+						"visitior.php"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "0"
+						},
+						{
+							"key": "function",
+							"value": "deleteVisitor"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": ""
+			},
+			"response": []
+		}
+	]
+}
